@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:text="Android Notes"
+        android:textColor="#EF0606"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+
+
+
+    <TextView
+        android:id="@+id/textViewAndroid1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="What is Android ?"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/Android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Android is a software package and linux based operating system
+        for mobile devices such as tablet computers and smartphones.
+It is developed by Google and later the OHA (Open Handset Alliance). Java language is
+mainly used to write the android code even though other languages can be used.
+The goal of android project is to create a successful real-world product that improves
+the mobile experience for end users."
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+
+
+        <Button
+            android:id="@+id/buttonPrevious"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Previous"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            />
+
+
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
